@@ -7,7 +7,7 @@
     "coverage": "c8 npm test",
     "coverage-report": "c8 report -r html",
     "build": "tsc",
-    "start": "npm run build && node main.js",
+    "start": "npm run build && node out/main.js",
     "docs": "typedoc"
   },
   "author": "",
